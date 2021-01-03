@@ -1,0 +1,132 @@
+<html>
+<head>
+<title>Personal Website</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+	* {
+ 		 box-sizing: border-box;
+	}
+
+	body {
+ 		 font-family: Arial, Helvetica, sans-serif;
+	}
+
+	/* Style the header */
+	header {
+ 		 background-image: url("images/imageheader.jpg");
+		 background-repeat: no-repeat;
+		 background-position: center;
+ 		 padding: 20px;
+		 height: 100%;
+		 width: 90%;
+		 overflow: hidden;
+ 		 text-align: center;
+  		 font-size: 35px;
+  		 color: white;
+		 margin-left: auto;
+		 margin-right: auto;
+	}
+
+	/* Create two columns/boxes that floats next to each other */
+	nav {
+  		float: left;
+ 		width: 20%;
+  		height: 500px;
+  		background: #B7BC6F;
+  		padding: 100px;
+	}
+
+	/* Style the list inside the menu */
+	nav ul {
+ 		list-style-type: none;
+ 		padding: 0;
+	}
+
+	article {
+ 		float: right;
+  		padding: 20px;
+  		width: 80%;
+  		background-color: #E7EE8C;
+  		height: 500px; 
+		font-size: 14pt;
+		
+	}
+
+	/* Clear floats after the columns */
+	section:after {
+ 		content: "";
+ 		display: table;
+  		clear: both;
+	}
+
+	/* Style the footer */
+	footer {
+  		background-color: #36713B;
+  		padding: 10px;
+  		text-align: center;
+  		color: white;
+	}
+
+	/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  	nav, article {
+    		width: 100%;
+    		height: auto;
+		margin: 35px;
+  	}
+	}
+
+	body {
+  		width: 100%;
+ 		height: 400px;
+  		background-image: url("images/backgroundheader.jpg");
+  		background-size: 100% 100%;
+	}
+
+</style>
+</head>
+<body>
+
+<header>
+  
+</header>
+
+<section>
+	<nav>
+  	<ul>
+		<li>
+		<a href = "personal-website.html"> <img src = "images/homeicon.jpg" alt ="Personal-Information" style = "width: 50px; height: 50px; border: 0;"></a></li>
+      		<li>
+		<a href = "personal-information-1.html"> <img src = "images/detailicon.png" alt ="Personal-Information" style = "width: 50px; height: 50px; border: 0;"></a></li>
+      		<li>
+		<a href = "education-2.html"> <img src = "images/educationicon.png" alt ="Education" style = "width: 50px; height: 50px; border: 0;"></a></li>
+      		<li>
+		<a href = "work-experience.html"> <img src = "images/workicon.png" alt ="Work" style = "width: 50px; height: 50px; border: 0;"></a></li>
+    		<li>
+		<a href = "award.html"> <img src = "images/awardicon.jpg" alt ="Award" style = "width: 50px; height: 50px; border: 0;"></a></li>
+	</ul>
+ 	</nav>
+  
+
+ <article>
+    	<h2>About me</h2>
+    	<p>Hello visitor, welcome to my page. Here I will show you my website that contain details on resume</p>
+
+	<p>You can click the tab at the left of my page to read more about me.</p>
+	<p>Doing this website for educational purpose only</p>
+<br><br>
+	<h2>Objective</h2>
+	<p>Seeking a position that can help to utilize my skills in managing office system and administeration and also improving my knowledge</p>
+ </article>
+
+</section>
+
+<footer>
+  	<p>For educational purpose only.</p>
+	<p>All right reserved©</p>
+	<p>Last updated: 2 January 2020</p>
+</footer>
+
+</body>
+</html>
